@@ -23,7 +23,7 @@ if(isset($_GET['prenom'])){
     $prenom = $_GET['prenom'];
 }
 if (isset($_GET['username'])) {
-    $userAutorise = $_GET ['prenom'] ;
+    $userAutorise == $_GET ['prenom'] ;
     echo $secret ;
 
 }
